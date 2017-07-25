@@ -1,9 +1,9 @@
 #ifndef _LEONHARD_PROBLEMS_CONTAINER_HPP_
 #define _LEONHARD_PROBLEMS_CONTAINER_HPP_
 
-#include <leonhard/problem.hpp>
-
 #include <map>
+
+#include <leonhard/problem.hpp>
 
 namespace leonhard {
 

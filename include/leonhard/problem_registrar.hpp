@@ -1,9 +1,9 @@
 #ifndef _LEONHARD_PROBLEM_REGISTRAR_HPP_
 #define _LEONHARD_PROBLEM_REGISTRAR_HPP_
 
-#include <leonhard/problem.hpp>
-
 #include <memory>
+
+#include <leonhard/problem.hpp>
 
 namespace leonhard {
 
