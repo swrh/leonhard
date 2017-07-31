@@ -8,7 +8,7 @@ problem_0001
 : public problem
 {
 public:
-    int
+    unsigned int
     number() const override
     {
         return 1;

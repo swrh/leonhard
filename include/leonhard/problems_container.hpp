@@ -9,7 +9,7 @@ namespace leonhard {
 
 class
 problems_container
-: public std::map<int, problem_ptr>
+: public std::map<unsigned int, problem_ptr>
 {
 public:
     static void register_problem(problem_ptr p);

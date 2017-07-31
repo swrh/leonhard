@@ -29,7 +29,7 @@ public:
     const std::string &get_answer();
 
 public:
-    virtual int number() const = 0;
+    virtual unsigned int number() const = 0;
 
 protected:
     virtual void solve() = 0;
