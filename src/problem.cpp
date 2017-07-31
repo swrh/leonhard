@@ -1,5 +1,7 @@
 #include <leonhard/problem.hpp>
 
+#include <leonhard/problems_descriptions.hpp>
+
 using namespace std;
 
 using namespace leonhard;
@@ -13,6 +15,12 @@ problem::out()
 {
     out_buffer.str("");
     return out_buffer;
+}
+
+const string &
+problem::get_description() const
+{
+    return problems_descriptions::describe(number());
 }
 
 const string &

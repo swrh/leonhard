@@ -25,6 +25,7 @@ protected:
     std::ostream &out();
 
 public:
+    const std::string &get_description() const;
     const std::string &get_solution();
     const std::string &get_answer();
 

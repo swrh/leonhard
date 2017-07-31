@@ -43,8 +43,8 @@ main(int argc, char *argv[])
     problems_container &problems = problems_container::instance();
 
     if (vm.count("list")) {
-        for (auto &kv : problems) {
-            cout << kv.first << endl;
+        for (const auto &kv : problems) {
+            cout << kv.first << "\t" << kv.second->get_description() << endl;
         }
     } else {
         cerr << __progname << ": missing command argument" << endl;
